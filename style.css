@@ -62,13 +62,17 @@ button {
   border: none;
   outline: none;
   padding: 14px 28px;
-  background: #3e0566;
+  background: #7b61ff;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 40px;
+  border-radius: 20px;
   white-space: nowrap;
   flex-shrink: 0;
+}
+
+input::placeholder {
+  color: #3e0566;
 }
 
 ul li {
@@ -98,7 +102,7 @@ ul li::before {
 }
 
 ul li.checked {
-  color: #3e0566;
+  color: #7b61ff;
   text-decoration: line-through;
 }
 
@@ -113,14 +117,14 @@ ul li span {
   height: 40px;
   width: 40px;
   font-size: 22px;
-  color: #3e0566;
+  color: #fff;
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
 }
 
 ul li span:hover {
-  background: #edeef0;
+  background: #7b61ff;
 }
 
 /* ── Tablet (≤600px) ── */
@@ -133,10 +137,12 @@ ul li span:hover {
 
   .row {
     padding-left: 15px;
+    border-radius: 20px;
   }
 
   button {
     padding: 12px 20px;
+    border-radius: 20px;
   }
 }
 
@@ -154,12 +160,12 @@ ul li span:hover {
 
   .row {
     padding-left: 12px;
-    border-radius: 14px;
+    border-radius: 20px;
   }
 
   button {
     padding: 11px 16px;
-    border-radius: 30px;
+    border-radius: 20px;
   }
 
   ul li {

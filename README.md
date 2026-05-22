@@ -13,3 +13,6 @@ Features
 
 -Built with: HTML · CSS · JavaScript
 
+## Project Pitch link
+
+Pitch link - [https://www.loom.com/share/702c8d0ce9a046d790d94c496c98576b]
