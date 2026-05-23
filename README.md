@@ -5,7 +5,7 @@ You can add tasks, check them off when they're done, and delete them when you no
 Features
 
 
-- Add new tasks with a single click or by pressing Enter
+- Add new tasks with a single click
 - Mark tasks as complete with a visual checkbox
 - Delete tasks individually with the × button
 - Responsive layout that adapts to any screen size
